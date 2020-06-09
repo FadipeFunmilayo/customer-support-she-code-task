@@ -107,3 +107,115 @@ ul {
   .img2{
     float:right;
   }
+  .dev{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+  }
+  .auto{
+    background-color: white;
+    width: 281px;
+    border: none;
+    padding-left: 35px;
+    margin: 20px; 
+    border-radius: 5px;
+    font-size: 21px;
+  }
+  
+  .des{
+    background-color: blue;
+    width: 281px;
+    border: none;
+    padding-left: 35px;
+    margin: 20px; 
+    border-radius: 5px;
+    font-size: 21px;
+  }
+  
+  .Easy{
+    background-color: white;
+    width: 281px;
+    border: none;
+    padding-left: 35px;
+    margin: 20px; 
+    border-radius: 5px;
+    font-size: 21px;
+  }
+  .lastlogo{
+    background-color: lightgrey;
+    width: 1269px;
+    border: none;
+    margin: 162px; 
+    padding: 25px;
+    height: 534px;
+    margin-left: 0px;
+  }
+  .integ{
+    text-align: center;
+  }
+  .par{
+    text-align: center;
+  }
+ .tree{
+   float: left;
+ } 
+ .Kiss{
+  background-color: white;
+  width: 40px;
+  border: none;
+  padding: 35px;
+  margin: 20px; 
+  border-radius: 5px;
+  text-align: center;
+}
+.Mot{
+  background-color: white;
+  width: 40px;
+  border: none;
+  padding: 35px;
+  margin: 20px; 
+  border-radius: 5px;
+  text-align: center;
+}
+.Nice{
+  background-color: white;
+  width: 40px;
+  border: none;
+  padding: 35px;
+  margin: 20px; 
+  border-radius: 5px;
+  text-align: center;
+}
+.Camp{
+  background-color: white;
+  width: 40px;
+  border: none;
+  padding: 35px;
+  margin: 20px; 
+  border-radius: 5px;
+  text-align: center;
+}
+.Web{
+  background-color: white;
+  width: 40px;
+  border: none;
+  padding: 35px;
+  margin: 20px; 
+  border-radius: 5px;
+  text-align: center;
+}
+.Ver{
+  background-color: white;
+  width: 40px;
+  border: none;
+  padding: 35px;
+  margin: 20px; 
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+}
+.lastlogo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
