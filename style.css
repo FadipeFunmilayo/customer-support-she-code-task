@@ -1,7 +1,7 @@
 
 body {
   padding: 12px 30px 30px;
-  background-color: #edf2f7;
+  background-color: whitesmoke;
   margin: auto;
 }                  
 ul {
@@ -21,13 +21,21 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    align-content: center;
+   
   }
   
   li a:hover {
     background-color: skyblue;
   }
-
+  .log{
+    float: left;
+    margin-right: 100px;
+  }
+  .link{
+    float: right;
+    margin-right: 300px;
+    margin-top: 13px;
+  }
   .mail{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -36,7 +44,7 @@ ul {
   .logo { 
     align-content: center;
     display: flex;
-    padding: 6px 34px 18px 78px;
+    padding: 6px 34px 18px 39px;
     margin: 20px;
   }
   .ticket {
@@ -46,7 +54,7 @@ ul {
     padding: 8px 138px 224px 24px;
     margin-left: 300px;
     height: 50px;
-    border-right: solid;  
+    border-right: solid 1px;  
   }
   .Address {
     display: block;
@@ -58,20 +66,38 @@ ul {
   .contact {
     display: flex;
   }
+  .pass{
+    padding: 1px;
+    margin: 10px;
+    border: none;
+    background-color: blue;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+  }
+  .ress{
+    padding: 1px;
+    margin: 10px;
+    border: none;
+    background-color: blue;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+  }
   .num1{
-    margin-left: 30px;
+    margin-left: 5px;
   }
   .num2{
-    margin-left: 70px;
+    margin-left: 150px;
   }
   .num3{
     margin-left: 100px;
   }
   .num4{
-    margin-left: 150px;
+    margin-left: 155px;
   }
   .num5{
-    margin-left: 170px;
+    margin-left: 135px;
   }
   .rich{
     text-align: center;
@@ -118,7 +144,7 @@ ul {
     border: none;
     padding-left: 35px;
     margin: 20px; 
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 21px;
   }
   
@@ -128,7 +154,7 @@ ul {
     border: none;
     padding-left: 35px;
     margin: 20px; 
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 21px;
   }
   
@@ -138,11 +164,11 @@ ul {
     border: none;
     padding-left: 35px;
     margin: 20px; 
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 21px;
   }
   .lastlogo{
-    background-color: lightgrey;
+    background-color: rgb(222, 228, 233);
     width: 1269px;
     border: none;
     margin: 162px; 
@@ -155,67 +181,79 @@ ul {
   }
   .par{
     text-align: center;
+    
   }
  .tree{
    float: left;
  } 
- .Kiss{
+ .kiss{
   background-color: white;
-  width: 40px;
+  width: 160px;
   border: none;
   padding: 35px;
   margin: 20px; 
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
+  align-content: center;
+  height: 74px;
 }
 .Mot{
   background-color: white;
-  width: 40px;
+  width: 160px;
   border: none;
   padding: 35px;
   margin: 20px; 
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
+  align-content: center;
+  height: 74px;
 }
 .Nice{
   background-color: white;
-  width: 40px;
+  width: 160px;
   border: none;
   padding: 35px;
   margin: 20px; 
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
+  align-content: center;
+  height: 74px;
 }
 .Camp{
   background-color: white;
-  width: 40px;
+  width: 160px;
   border: none;
   padding: 35px;
   margin: 20px; 
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
+  align-content: center;
+  height: 74px;
 }
 .Web{
   background-color: white;
-  width: 40px;
+  width: 160px;
   border: none;
   padding: 35px;
   margin: 20px; 
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
+  align-content: center;
+  height: 74px;
 }
 .Ver{
   background-color: white;
-  width: 40px;
+  width: 160px;
   border: none;
   padding: 35px;
   margin: 20px; 
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
   align-content: center;
+  height: 74px;
 }
-.lastlogo {
+.fig{
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+ 
 }
